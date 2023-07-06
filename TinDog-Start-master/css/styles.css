@@ -1,0 +1,182 @@
+body {
+    font-size: "montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+
+}
+
+.fluid-container {
+    padding: 3% 15% 6%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: "montserrat";
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'montserrat';
+    font-weight: lighter;
+}
+
+.dcss {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+@media (max-width:1028px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* .title-img media {
+    width:20% ;
+    transform: rotate(25deg);
+    position: absolute;
+     right: 25%;
+ } */
+#features {
+    text-align: center;
+    padding: 6rem 12rem;
+    /* margin-bottom: 10rem;  */
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+}
+
+#features .col-lg-4 {
+    padding: 8%;
+}
+
+#features h3 {
+    font-family: "montserrat";
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+#testimonials {
+
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+
+
+}
+
+.carousel-inner {
+    padding: 6rem 12rem;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3rem;
+
+}
+
+#press img {
+    width: 10%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing .card {
+    margin: 8% 2% 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7%;
+}
+
+#cta h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+#cta .btn {
+    margin: 5% 2%;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer i {
+    margin: 30px 10px;
+}
+.lg {
+    /* border:2px solid black ; */
+   display: flex;
+  
+}
+.lg-con {
+    display: flex; 
+    flex-direction: column;
+    margin-left:0.8rem ;
+    justify-content: center; 
+    align-items: center;
+    font-size: 1.9rem;
+}
+.logo {
+    background: blue; 
+    width: 20%;
+   
+    border-radius: 100%;
+}
